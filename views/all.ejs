@@ -34,12 +34,12 @@
                   <td><%=us.city%></td>
                   <td><%=us.zip%></td>
                   <td>
-                      <form action="/<%=us._id%> ">
+                      <form action="/<%=us._id%>/delete">
                           <button class="btn btn-danger">Delete</button>
                       </form>
                   </td>
                   <td>
-                    <form action="">
+                    <form action="/<%=us._id%>/update">
                         <button class="btn btn-info">Edit</button>
                     </form>
                 </td>
